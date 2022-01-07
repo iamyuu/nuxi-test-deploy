@@ -536,7 +536,7 @@
     error-stack-parser "^2.0.0"
     string-width "^4.2.3"
 
-"@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27356801.e9128f3", "@nuxt/kit@npm:@nuxt/kit-edge@latest":
+"@nuxt/kit-edge@latest", "@nuxt/kit@npm:@nuxt/kit-edge@3.0.0-27356801.e9128f3":
   version "3.0.0-27356801.e9128f3"
   resolved "https://registry.yarnpkg.com/@nuxt/kit-edge/-/kit-edge-3.0.0-27356801.e9128f3.tgz#acaf3fb1a7f0176d66404ed23c8ea27dc117378c"
   integrity sha512-hGiqZydtMiK+UhHBsdD0WC+fHeI3xyJixhY2rNPGwFrzdeTrbUy8YH451SbRPOJ8TS0RYQ+cUT6JfMr0YTpnfg==
@@ -3057,15 +3057,15 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
+h3@^0.3.1, h3@^0.3.8:
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/h3/-/h3-0.3.8.tgz#ac0f0f714d61bfce7a6ad8603deadf26960a33c9"
+  integrity sha512-gv558Zr6vSdXMNlpLCz/gbrd/rkw7Uk/KaHfDPtNSujGffUyi/r27HxRXFKsJUa+ngFAttsjQRtoGbDP+w/9Iw==
+
 h3@^0.3.3:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/h3/-/h3-0.3.3.tgz#9c6feb2ddf842ea5448c53a8bc8bc3a686799c21"
   integrity sha512-ammvVddtZArv6pnCkl0tEekY8owWPZNZCW4teePYzGwfN2w7kb0wnraLIFnB20mqUU2kCAV5bvI+2mjmGztS3w==
-
-h3@^0.3.8:
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/h3/-/h3-0.3.8.tgz#ac0f0f714d61bfce7a6ad8603deadf26960a33c9"
-  integrity sha512-gv558Zr6vSdXMNlpLCz/gbrd/rkw7Uk/KaHfDPtNSujGffUyi/r27HxRXFKsJUa+ngFAttsjQRtoGbDP+w/9Iw==
 
 has-ansi@^2.0.0:
   version "2.0.0"
@@ -3924,15 +3924,15 @@ mkdirp@^1.0.3:
   resolved "https://registry.yarnpkg.com/mkdirp/-/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
+mlly@^0.3.0, mlly@^0.3.16:
+  version "0.3.16"
+  resolved "https://registry.yarnpkg.com/mlly/-/mlly-0.3.16.tgz#b3d92015eb1fcf481a808d39e817c7cb98ac2f33"
+  integrity sha512-DVydmuR8fmiMetH39kp8VXYslN0XDh+OxULuU/ov8TMwVIxDGQ8PsJIrNi6cZZaHiIYL6wtO6+sjGpVc7msKUg==
+
 mlly@^0.3.10:
   version "0.3.13"
   resolved "https://registry.yarnpkg.com/mlly/-/mlly-0.3.13.tgz#5433261f38ccebba6f72fabda863a4dfc84b16d8"
   integrity sha512-EXpbSPqSQLR9NEdB25uoyIYLSUvAqDEI7wUeM1HwXHsPF5Gx7cP7kuby5Mz2LfCPxBrgMnbcyPhcTCJRTQ+uvA==
-
-mlly@^0.3.16:
-  version "0.3.16"
-  resolved "https://registry.yarnpkg.com/mlly/-/mlly-0.3.16.tgz#b3d92015eb1fcf481a808d39e817c7cb98ac2f33"
-  integrity sha512-DVydmuR8fmiMetH39kp8VXYslN0XDh+OxULuU/ov8TMwVIxDGQ8PsJIrNi6cZZaHiIYL6wtO6+sjGpVc7msKUg==
 
 mlly@^0.3.6:
   version "0.3.8"
@@ -4155,24 +4155,23 @@ number-is-nan@^1.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-windicss@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-2.2.2.tgz#22c1129376b4f33366dbb4f8abc82f2cd7a67fea"
-  integrity sha512-4tvzk9d2TUFxloty187D+wmO8ZNAvpSmRJ5HQO3/AvZdMMhAl4gomXR9fCgFKQe7Fxcj9nIKNInOx8TWowjiqA==
+nuxt-windicss@2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/nuxt-windicss/-/nuxt-windicss-2.0.8.tgz#608a8ebe39cef54d3b2f220e6551ce1d0f0d3245"
+  integrity sha512-lgrjx4Ksb+4bRDtq+LhhEaae87RLKoOodW83FGtQkahVSl0oILqHinkBWpNPANHKTQomC5Mxsp25AX55Epg4hw==
   dependencies:
-    "@nuxt/kit" "npm:@nuxt/kit-edge@latest"
-    "@windicss/plugin-utils" "^1.6.1"
-    consola "^2.15.3"
+    "@nuxt/kit-edge" latest
     defu "^5.0.0"
-    h3 "^0.3.8"
+    h3 "^0.3.1"
     listhen "^0.2.4"
+    mlly "^0.3.0"
     pathe "^0.2.0"
     read-cache "^1.0.0"
-    sirv "^1.0.19"
-    vite-plugin-windicss "^1.6.1"
-    windicss "^3.4.2"
-    windicss-analysis "^0.3.5"
-    windicss-webpack-plugin "^1.6.2"
+    sirv "^1.0.17"
+    vite-plugin-windicss "^1.4.11"
+    windicss "^3.1.9"
+    windicss-analysis "^0.3.4"
+    windicss-webpack-plugin "^1.5.3"
 
 nuxt3@latest:
   version "3.0.0-27356801.e9128f3"
@@ -5314,7 +5313,7 @@ sirv@^1.0.12, sirv@^1.0.7:
     mime "^2.3.1"
     totalist "^1.0.0"
 
-sirv@^1.0.19:
+sirv@^1.0.17:
   version "1.0.19"
   resolved "https://registry.yarnpkg.com/sirv/-/sirv-1.0.19.tgz#1d73979b38c7fe91fcba49c85280daa9c2363b49"
   integrity sha512-JuLThK3TnZG1TAKDwNIqNq6QA2afLOCcm+iE8D1Kj3GA40pSPsxQjjJl0J8X3tsR7T+CP1GavpzLwYkgVLWrZQ==
@@ -5840,7 +5839,7 @@ vendors@^1.0.3:
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
 
-vite-plugin-windicss@^1.6.1:
+vite-plugin-windicss@^1.4.11:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/vite-plugin-windicss/-/vite-plugin-windicss-1.6.1.tgz#89c6790d6fff2ea17fc540a8487759da9d7d4ec0"
   integrity sha512-63uv4HqBxtSZB0WOtrZS8yhyfQPgGQwYgcBald+/BpLSlYJREcDKgX9Xd/qDgTAjpDRozxKQj/JWreIlyIahGg==
@@ -6082,7 +6081,7 @@ wide-align@^1.1.0:
   dependencies:
     string-width "^1.0.2 || 2"
 
-windicss-analysis@^0.3.5:
+windicss-analysis@^0.3.4:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/windicss-analysis/-/windicss-analysis-0.3.5.tgz#ab9a82e1410197e38d1624dbef93709d494b24af"
   integrity sha512-g7306c47Yc9c0nAhVLwVDVYt+MQmxGfpg1Q06mP4+j5nqCrJgh18Km4HyL8BABv7wo6BdUN7FeVtxb+u5TokxA==
@@ -6095,7 +6094,7 @@ windicss-analysis@^0.3.5:
     fs-extra "^10.0.0"
     sirv "^1.0.12"
 
-windicss-webpack-plugin@^1.6.2:
+windicss-webpack-plugin@^1.5.3:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/windicss-webpack-plugin/-/windicss-webpack-plugin-1.6.2.tgz#273def94ca566ab86fc8cfb7acf9f9a67c644922"
   integrity sha512-1NhvBVmClIgxnC6C50RlqdpL9klF4g1JwJAoDNCdY0fO6o5GP6hO+E3xGCWI38l4Ij36JQZ4/CxFKWjdixXFBQ==
@@ -6114,7 +6113,7 @@ windicss@^3.1.9:
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.1.9.tgz#e43d924168422efa743c8223607c3af47d2d0291"
   integrity sha512-5YoKvXeCQXIdwc91BoOgpKbIImr2JS8I14rPMa/5dKDDPA4ot3NgICWKELkml39R/8rn4Q0BVUUTqN+w+hjDSA==
 
-windicss@^3.4.0, windicss@^3.4.2:
+windicss@^3.4.0:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.4.2.tgz#257795c9be8b6e93117ffa3fb27874d225da6679"
   integrity sha512-YieqWaXiwPu0JJoB7z03RXdjZjQQJtMZAeXUXu/j3JXSMhIgV/2rUXu4Q7QrworRlbaASZlFhxjnL/78aAty+Q==
