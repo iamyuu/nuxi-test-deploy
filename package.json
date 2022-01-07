@@ -1,0 +1,14 @@
+{
+	"private": true,
+	"scripts": {
+		"dev": "nuxt dev",
+		"build": "nuxt build",
+		"start": "node .output/server/index.mjs",
+		"serve": "vite preview"
+	},
+	"devDependencies": {
+		"nuxt-windicss": "2.0.8",
+		"nuxt3": "3.0.0-27274229.29599f0",
+		"typescript": "4.3.2"
+	}
+}
